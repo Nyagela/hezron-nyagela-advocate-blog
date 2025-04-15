@@ -1,0 +1,88 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://blog.hezronnyagela.com/</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-portrait-2024.jpg</image:loc>
+      <image:title>Hezron Nyagela, Advocate</image:title>
+      <image:caption>Professional portrait of Hezron Nyagela, a leading advocate in Kenya</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/blog</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/achievements</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-courtroom-2024.jpg</image:loc>
+      <image:title>Hezron Nyagela in Court</image:title>
+      <image:caption>Hezron Nyagela advocating in a Kenyan courtroom</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/blog/landmark-pro-bono-housing-rights-case-2023</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-housing-case-2023.jpg</image:loc>
+      <image:title>Hezron Nyagela's Housing Rights Victory</image:title>
+      <image:caption>Hezron Nyagela with clients after winning landmark housing rights case</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/blog/drafting-kenya-corporate-governance-guidelines</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-corporate-governance-2024.jpg</image:loc>
+      <image:title>Hezron Nyagela at Corporate Governance Forum</image:title>
+      <image:caption>Hezron Nyagela presenting Kenya's new corporate governance guidelines</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/blog/award-winning-article-cyberlaw-east-africa</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-award-ceremony-2024.jpg</image:loc>
+      <image:title>Hezron Nyagela Receiving Award</image:title>
+      <image:caption>Hezron Nyagela receiving award for his article on Cyberlaw in East Africa</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/blog/speaking-african-legal-innovators-forum-2024</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-speaking-conference-2024.jpg</image:loc>
+      <image:title>Hezron Nyagela Speaking at Conference</image:title>
+      <image:caption>Hezron Nyagela delivering keynote at the African Legal Innovators Forum</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://blog.hezronnyagela.com/blog/free-legal-clinic-serving-2000-kenyans</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://blog.hezronnyagela.com/images/hezron-nyagela-legal-clinic-2023.jpg</image:loc>
+      <image:title>Hezron Nyagela's Free Legal Clinic</image:title>
+      <image:caption>Hezron Nyagela with volunteers at his free legal clinic in Kenya</image:caption>
+    </image:image>
+  </url>
+</urlset>

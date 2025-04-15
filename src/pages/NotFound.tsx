@@ -1,5 +1,7 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
+import Layout from "@/components/layout/Layout";
+import { ArrowLeft } from "lucide-react";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,15 +14,25 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <Layout
+      title="Page Not Found | Hezron Nyagela, Advocate"
+      description="The page you were looking for could not be found."
+    >
+      <div className="min-h-[70vh] flex items-center justify-center">
+        <div className="text-center px-4 md:px-6">
+          <h1 className="text-6xl font-serif font-bold mb-6 text-primary">404</h1>
+          <p className="text-2xl font-serif text-gray-600 mb-8">
+            Oops! The page you're looking for doesn't exist.
+          </p>
+          <Link 
+            to="/" 
+            className="inline-flex items-center bg-primary hover:bg-primary/90 text-white font-medium px-6 py-3 rounded-md transition-colors"
+          >
+            <ArrowLeft size={16} className="mr-2" /> Return to Home
+          </Link>
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 

@@ -1,0 +1,66 @@
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://blog.hezronnyagela.com/#website",
+      "url": "https://blog.hezronnyagela.com/",
+      "name": "Hezron Nyagela, Advocate",
+      "description": "Legal insights and expert analysis from a leading Kenyan advocate",
+      "publisher": {
+        "@id": "https://blog.hezronnyagela.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://blog.hezronnyagela.com/#organization",
+      "name": "Hezron Nyagela, Advocate",
+      "url": "https://blog.hezronnyagela.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://blog.hezronnyagela.com/images/hezron-nyagela-logo.png",
+        "width": 600,
+        "height": 60
+      },
+      "sameAs": [
+        "https://www.facebook.com/hezronnyagela",
+        "https://twitter.com/hezronnyagela",
+        "https://www.linkedin.com/in/hezron-nyagela"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kibera Drive",
+        "addressLocality": "Nairobi",
+        "addressRegion": "Nairobi",
+        "postalCode": "00100",
+        "addressCountry": "KE"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+254-123-456-789",
+        "contactType": "customer service",
+        "email": "info@hezronnyagela.com"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://blog.hezronnyagela.com/#person",
+      "name": "Hezron Nyagela",
+      "jobTitle": "Advocate",
+      "url": "https://blog.hezronnyagela.com",
+      "image": "https://blog.hezronnyagela.com/images/hezron-nyagela-portrait-2024.jpg",
+      "sameAs": [
+        "https://www.facebook.com/hezronnyagela",
+        "https://twitter.com/hezronnyagela", 
+        "https://www.linkedin.com/in/hezron-nyagela"
+      ],
+      "worksFor": {
+        "@id": "https://blog.hezronnyagela.com/#organization"
+      },
+      "description": "Hezron Nyagela is a distinguished advocate in Kenya, specializing in corporate governance, human rights, and cyberlaw.",
+      "knowsAbout": ["Corporate Law", "Human Rights", "Cyberlaw", "Constitutional Law", "Legal Writing"]
+    }
+  ]
+}
