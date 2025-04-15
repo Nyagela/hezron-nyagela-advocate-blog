@@ -1,4 +1,3 @@
-
 import { useParams, Link } from "react-router-dom";
 import { useEffect } from "react";
 import Layout from "@/components/layout/Layout";
@@ -202,7 +201,7 @@ const BlogPost = () => {
                     <h3 className="text-xl font-serif font-semibold mb-2 text-primary">{currentPost.author}</h3>
                     <p className="text-gray-600 mb-4">{currentPost.authorTitle}</p>
                     <p className="text-gray-700">
-                      Hezron Nyagela is a distinguished advocate with over 15 years of experience in Kenya's legal landscape.
+                      Hezron Nyagela is a distinguished advocate with over 15 years of experience in South Africa's legal landscape.
                       He specializes in corporate governance, human rights advocacy, and cyberlaw.
                     </p>
                   </div>

@@ -7,9 +7,9 @@ import { ArrowRight, Award, BookOpen, Briefcase, User } from "lucide-react";
 const Home = () => {
   return (
     <Layout
-      title="Hezron Nyagela, Advocate | Leading Kenyan Legal Expert"
-      description="Official blog of Hezron Nyagela, a distinguished advocate specializing in corporate governance, human rights, and cyberlaw in Kenya and East Africa."
-      keywords="Hezron Nyagela, advocate, lawyer, Kenya, legal expert, corporate governance, human rights, cyberlaw"
+      title="Hezron Nyagela, Advocate | Leading South African Legal Expert"
+      description="Official blog of Hezron Nyagela, a distinguished advocate specializing in corporate governance, human rights, and cyberlaw in South Africa."
+      keywords="Hezron Nyagela, advocate, lawyer, South Africa, legal expert, corporate governance, human rights, cyberlaw"
       url="/"
     >
       <OrganizationSchema />
@@ -25,7 +25,7 @@ const Home = () => {
               <span className="block text-accent mt-2">Advocate</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-100">
-              Insights and analyses from Kenya's leading expert in corporate governance, human rights, and cyberlaw.
+              Insights and analyses from South Africa's leading expert in corporate governance, human rights, and cyberlaw.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link 
@@ -51,10 +51,10 @@ const Home = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-serif font-semibold mb-4 text-primary">About Hezron Nyagela</h2>
             <p className="text-lg text-gray-700 mb-6">
-              A distinguished advocate with over 15 years of experience in Kenya's legal landscape. Hezron has built a reputation for excellence in corporate governance, human rights advocacy, and cyberlaw.
+              A distinguished advocate with over 15 years of experience in South Africa's legal landscape. Hezron has built a reputation for excellence in corporate governance, human rights advocacy, and cyberlaw.
             </p>
             <p className="text-lg text-gray-700">
-              Through this blog, he shares his expertise, insights on landmark cases, and analyses of emerging legal trends across East Africa.
+              Through this blog, he shares his expertise, insights on landmark cases, and analyses of emerging legal trends across South Africa.
             </p>
           </div>
         </div>
@@ -71,22 +71,22 @@ const Home = () => {
               <div className="h-48 overflow-hidden">
                 <img 
                   src="/images/hezron-nyagela-housing-case-2023.jpg"
-                  alt="Hezron Nyagela with clients after winning landmark housing rights case"
+                  alt="Hezron Nyagela with clients after winning landmark housing rights case in Cape Town"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">April 10, 2025</div>
                 <h3 className="text-xl font-serif font-semibold mb-3 text-primary">
-                  <Link to="/blog/landmark-pro-bono-housing-rights-case-2023" className="hover:text-accent transition-colors">
-                    How Hezron Nyagela Won the Landmark Pro Bono Housing Rights Case in 2023
+                  <Link to="/blog/landmark-housing-rights-case-south-africa-2023" className="hover:text-accent transition-colors">
+                    How Hezron Nyagela Won the Landmark Housing Rights Case in Cape Town
                   </Link>
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  A detailed account of the historic housing rights victory that established new precedent for tenant protections in Kenya.
+                  A detailed account of the historic housing rights victory that established new precedent for tenant protections in South Africa.
                 </p>
                 <Link 
-                  to="/blog/landmark-pro-bono-housing-rights-case-2023" 
+                  to="/blog/landmark-housing-rights-case-south-africa-2023" 
                   className="inline-flex items-center text-accent hover:text-primary font-medium transition-colors"
                 >
                   Read more <ArrowRight size={16} className="ml-2" />
@@ -99,22 +99,22 @@ const Home = () => {
               <div className="h-48 overflow-hidden">
                 <img 
                   src="/images/hezron-nyagela-corporate-governance-2024.jpg"
-                  alt="Hezron Nyagela presenting Kenya's new corporate governance guidelines"
+                  alt="Hezron Nyagela presenting at the Institute of Directors South Africa"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">March 28, 2025</div>
                 <h3 className="text-xl font-serif font-semibold mb-3 text-primary">
-                  <Link to="/blog/drafting-kenya-corporate-governance-guidelines" className="hover:text-accent transition-colors">
-                    Hezron's Role in Drafting Kenya's New Corporate Governance Guidelines
+                  <Link to="/blog/corporate-governance-guidelines-south-africa" className="hover:text-accent transition-colors">
+                    Hezron's Role in Enhancing South Africa's King IV Corporate Governance Code
                   </Link>
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  How Hezron Nyagela helped shape the future of corporate governance in Kenya through his legal expertise and vision.
+                  How Hezron Nyagela contributed to strengthening South Africa's world-renowned corporate governance framework.
                 </p>
                 <Link 
-                  to="/blog/drafting-kenya-corporate-governance-guidelines" 
+                  to="/blog/corporate-governance-guidelines-south-africa" 
                   className="inline-flex items-center text-accent hover:text-primary font-medium transition-colors"
                 >
                   Read more <ArrowRight size={16} className="ml-2" />
@@ -127,22 +127,22 @@ const Home = () => {
               <div className="h-48 overflow-hidden">
                 <img 
                   src="/images/hezron-nyagela-legal-clinic-2023.jpg"
-                  alt="Hezron Nyagela with volunteers at his free legal clinic in Kenya"
+                  alt="Hezron Nyagela with volunteers at his free legal clinic in Soweto"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">April 5, 2025</div>
                 <h3 className="text-xl font-serif font-semibold mb-3 text-primary">
-                  <Link to="/blog/free-legal-clinic-serving-2000-kenyans" className="hover:text-accent transition-colors">
-                    How Hezron Built a Free Legal Clinic Serving Over 2,000 Kenyans
+                  <Link to="/blog/pro-bono-legal-clinic-soweto" className="hover:text-accent transition-colors">
+                    Building Justice: Free Legal Clinic Serves Over 2,000 Soweto Residents
                   </Link>
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  The inspiring story behind Hezron Nyagela's initiative to provide free legal services to underserved communities in Kenya.
+                  The inspiring story behind Hezron Nyagela's initiative to provide free legal services in Soweto.
                 </p>
                 <Link 
-                  to="/blog/free-legal-clinic-serving-2000-kenyans" 
+                  to="/blog/pro-bono-legal-clinic-soweto" 
                   className="inline-flex items-center text-accent hover:text-primary font-medium transition-colors"
                 >
                   Read more <ArrowRight size={16} className="ml-2" />
@@ -173,7 +173,7 @@ const Home = () => {
               <Briefcase className="text-accent mb-4" size={32} />
               <h3 className="text-xl font-serif font-semibold mb-3 text-primary">Corporate Governance</h3>
               <p className="text-gray-600">
-                Expert counsel on corporate governance frameworks, board responsibilities, and regulatory compliance for Kenyan and international businesses.
+                Expert counsel on corporate governance frameworks, board responsibilities, and regulatory compliance for South African and international businesses.
               </p>
             </div>
             
@@ -182,7 +182,7 @@ const Home = () => {
               <User className="text-accent mb-4" size={32} />
               <h3 className="text-xl font-serif font-semibold mb-3 text-primary">Human Rights Advocacy</h3>
               <p className="text-gray-600">
-                Passionate representation for individuals and communities, with a focus on housing rights, equality, and social justice issues.
+                Passionate representation for individuals and communities, with a focus on housing rights, equality, and social justice issues throughout South Africa.
               </p>
             </div>
             
@@ -191,7 +191,7 @@ const Home = () => {
               <BookOpen className="text-accent mb-4" size={32} />
               <h3 className="text-xl font-serif font-semibold mb-3 text-primary">Cyberlaw & Digital Rights</h3>
               <p className="text-gray-600">
-                Pioneering work in the evolving field of cyberlaw, focusing on privacy protections, digital rights, and regulatory frameworks in East Africa.
+                Pioneering work in the evolving field of cyberlaw, focusing on privacy protections, digital rights, and regulatory frameworks in South Africa.
               </p>
             </div>
           </div>
@@ -203,7 +203,7 @@ const Home = () => {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-serif font-semibold mb-6">Learn More About Hezron's Achievements</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Discover the landmark cases, publications, speaking engagements, and pro bono initiatives that have defined Hezron Nyagela's distinguished legal career.
+            Discover the landmark cases, publications, speaking engagements, and pro bono initiatives that have defined Hezron Nyagela's distinguished legal career in South Africa.
           </p>
           <Link 
             to="/achievements" 
