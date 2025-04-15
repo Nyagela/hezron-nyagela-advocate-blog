@@ -1,4 +1,3 @@
-
 export interface BlogPost {
   id: string;
   slug: string;
@@ -579,11 +578,3 @@ For his pioneering work in this area, Nyagela was appointed to the International
 
 "The true measure of successful competition policy isn't just efficiency, but economic justice," notes Nyagela. "In South Africa's context, that means markets that are both competitive and inclusive, allowing participation by businesses of all sizes and backgrounds."`,
     featuredImage: "/images/hezron-nyagela-competition-case-2024.jpg",
-    altText: "Hezron Nyagela announcing competition law victory in Pretoria",
-    publishDate: "2025-02-28",
-    author: "Hezron Nyagela",
-    authorTitle: "Advocate, Competition Law Expert",
-    category: "Competition Law",
-    tags: ["competition law", "antitrust", "small business", "South Africa", "economic justice"]
-  }
-];
